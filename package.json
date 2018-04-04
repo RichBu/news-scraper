@@ -1,0 +1,28 @@
+{
+  "name": "news-scraper",
+  "version": "1.0.0",
+  "description": "scrapes the news from VOX",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichBu/news-scraper.git"
+  },
+  "author": "RPB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RichBu/news-scraper/issues"
+  },
+  "homepage": "https://github.com/RichBu/news-scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.12",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0"
+  }
+}
